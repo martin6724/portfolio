@@ -1,0 +1,76 @@
+@font-face {
+  font-family: NegativeSpace;
+  font-style: normal;
+  src: url(./NegativeSpace.ttf);
+}
+
+/* ul {
+  float: left;
+} */
+
+#topbar {
+  display: inline;
+  top: 0;
+  list-style: none;
+  width: 100%;
+  text-align: left;
+  background-color: rgba(11,44,103,0.6);
+  float: left;
+  z-index: -1;
+}
+
+li {
+  list-style-type: none;
+  margin-left: 30px;
+  float: left;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Space Mono', monospace;
+  font-size: 10px;
+  color: white;
+}
+
+h1 {
+  color: white;
+  font-family: NegativeSpace;
+  font-weight: lighter;
+  font-size: 80px;
+}
+
+#vidbackdrop {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -5;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    color: white;
+    width: 75%;
+    padding: 10px;
+}
+
+.button {
+  border-style: solid;
+  border-width: 3px;
+  background-color: rgb(128,0,128, 0.2);
+  color: white;
+  opacity: 50%;
+  text-align: center;
+  font-family: 'Space Mono', monospace;
+  font-size: 20px;
+  margin-top: 0;
+}
+
+
+#bottombar {
+position: relative;
+width: 100%;
+z-index: -3;
+}
