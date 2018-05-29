@@ -1,39 +1,68 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 <head>
-  <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+  <title>Michelle's Portfolio</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Michelle Martin</title>
-  <link type="text/css" rel="stylesheet" href="portfolio.css">
-</head>
-
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="portfolio.css" rel="stylesheet">
+	<script src="Vidage.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script></head>
 <body>
 
-  <nav id="topbar">
-    <ul>
-      <li><a href="#contact">contact me</a></li>
-      <li><a href="aboutme.html">about</a></li>
-      <li><a href="#resume">resume</a></li>
-      <li><a href="#portfolio">portfolio</a></li>
+  <div class="Vidage">
+  	  <video id="VidageVideo" class="Vidage__video" preload="metadata" loop autoplay muted>
+  	    <source src="./michellemartinportfolio.mp4" type="video/mp4">
+  	  </video>
+  	  <div class="Vidage__backdrop"></div>
+  	</div>
+
+  <script src="vidage/src/scripts/Vidage.js"></script>
+  <script>
+      new Vidage(selector);
+  </script>
+
+<nav class="navbar navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="./aboutme.html">Resume</a></li>
+      <li><a href="./foliopage1.html">Portfolio</a></li>
+      <li><a href="./contact.html">Contact</a></li>
     </ul>
-  </nav>
+  </div>
+</nav>
 
-<video autoplay muted loop id="vidbackdrop">
-  <source src="michellemartinportfolio.mp4" type="video/mp4">
-</video>
+  <div class="container center_content">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>MICHELLE,</h1>
+        <h2>web developer<h2>
+            <div class="col-md-6">
+              <div class="row">
+              <i class="far fa-envelope"></i>
+              <button type="button">email me.</button>
+            </div>
 
-  <div class="content">
-  <h1>michelle martin <br><em>web dev</em>...</h1>
-  <div class="button" a href="mailto:martin.michelleann@gmail.com?Subject=Hello%20Michelle">email me
+            <div class="col-md-6">
+              <div class="row">
+              <i class="far fa-eye"></i>
+              <button type="button">see the work.</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
   </div>
 
-<div id="bottombar">
-    <a href="https://www.linkedin.com/in/michelleannmartin/" class="fa fa-linkedin"></a></li>
-    <a href="https://github.com/martin6724" class="fa fa-github"></a></li>
-    <a href="tel:+17864589537" class="fa fa-phone-square"></a></li>
-</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
 </body>
 </html>
