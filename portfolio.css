@@ -113,10 +113,12 @@ flex-direction: column;
   text-decoration: none;
   overflow: hidden;
   cursor: pointer;
+  padding-top: 10px;
 }
 
 .homebox:hover {
     background: #CD573F;
+    padding-top: 10px;
 }
 
 
