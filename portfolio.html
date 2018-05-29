@@ -24,16 +24,24 @@
       new Vidage(selector);
   </script>
 
-<nav class="navbar navbar-fixed-top">
+<nav class="navbar navbar-inverse navbar-fixed-top" id="fullbar">
   <div class="container-fluid">
     <div class="navbar-header">
-    </div>
-    <ul class="nav navbar-nav">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+      <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+    </button>
+  </div>
+<div class="collapse navbar-collapse" id="myNavbar">
+  <ul class="nav navbar-nav">
       <li class="active"><a href="#">Home</a></li>
       <li><a href="./aboutme.html">Resume</a></li>
       <li><a href="./foliopage1.html">Portfolio</a></li>
       <li><a href="./contact.html">Contact</a></li>
     </ul>
+  </div>
   </div>
 </nav>
 
@@ -42,23 +50,26 @@
       <div class="col-md-12">
         <h1>MICHELLE,</h1>
         <h2>web developer<h2>
-            <div class="col-md-6">
-              <div class="row">
-              <i class="far fa-envelope"></i>
-              <button type="button">email me.</button>
-            </div>
+        </div>
 
             <div class="col-md-6">
-              <div class="row">
-              <i class="far fa-eye"></i>
-              <button type="button">see the work.</button>
-            </div>
-          </div>
+              <div class="homebox">
+                <i class="far fa-envelope"></i>
+              <p>email me</p>
+              </div>
+              </div>
+
+            <div class="col-md-6">
+              <div class="homebox">
+                <i class="far fa-eye"></i>
+                <p>see more</p>
+              </div>
+              </div>
+
 
         </div>
       </div>
-    </div>
-  </div>
+
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
