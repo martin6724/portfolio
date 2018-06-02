@@ -128,7 +128,7 @@ button {
   border: none;
 }
 
-.abutton {
+button.abutton {
   background-color: transparent;
 }
 
