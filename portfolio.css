@@ -126,7 +126,14 @@ button {
   color: white;
   background-color: transparent;
   border: none;
+}
 
+.button {
+  background-color: transparent;
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+  background-color: transparent;
 }
 
 a, a:hover {
