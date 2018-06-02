@@ -132,8 +132,8 @@ button.abutton {
   background-color: transparent;
 }
 
-button, html input[type=button], input[type=reset], input[type=submit] {
-  background-color: transparent;
+button, input, optgroup, select, textarea {
+  background-color: transparent, !important;  
 }
 
 a, a:hover {
