@@ -1,6 +1,14 @@
-.links {
+body {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  background-image: url("paper.gif");
+}
 
+.links {
   font-size: 100px;
+  color: white;
   margin: auto;
   width: 50%;
   padding: 10px;
