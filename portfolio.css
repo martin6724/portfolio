@@ -133,7 +133,7 @@ button.abutton {
 }
 
 button, input, optgroup, select, textarea {
-  background-color: transparent, !important;  
+  background-color: transparent, !important;
 }
 
 a, a:hover {
@@ -156,4 +156,17 @@ a, a:hover {
 /* position: relative; */
 width: 100%;
 
+}
+
+.modal-content {
+  background-color: gray;
+}
+
+.modal-header {
+  background-color: #CD573F;
+  color: white;
+}
+
+.modal-title { 
+  color: white;
 }
