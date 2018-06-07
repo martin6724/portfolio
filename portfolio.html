@@ -66,7 +66,7 @@
               <i class="far fa-eye"></i>
               <p><a data-toggle="modal" href="#" data-target="#PortfolioModal">
                 See more
-              </button></p>
+              </a></p>
               </div>
 
               <div id="PortfolioModal" class="modal fade" role="dialog">
@@ -85,43 +85,51 @@
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+
               </ol>
 
               <!-- Wrapper for slides -->
               <div class="carousel-inner">
                 <div class="item active">
-                  <img src="Mycrobiome-Sample.png" alt="Mycrobio.me, an interactive antibiotic reference.">
-                  <p> https://mycrobio-me.herokuapp.com/Mycrobio.me,
+                  <!-- <video width="640" height="480" controls> -->
+                      <!-- <source src="images/mycrobio3.mov" type="video/mov"> -->
+                        <img src="images/Mycrobiome-Sample.png" alt="Mycrobio.me, an interactive antibiotic reference.">
+                  <!-- </video> -->
+
+                  <br><p> https://mycrobio-me.herokuapp.com/Mycrobio.me,
                     Voted May 2018 winner for best graduate app. See the code on Github: https://github.com/martin6724/mycrobio.me</p>
                 </div>
 
                 <div class="item">
-                  <img src="ReactWeatherApp.jpg" alt="Mycrobio.me, an interactive antibiotic reference.">
-                    <p>A sample weather app built on React. See the code on Github: https://github.com/martin6724/weather_app_react</p>
+                  <img class="img-fluid" src="images/react_weather_app.png" alt="Mycrobio.me, an interactive antibiotic reference.">
+                  <br><br><br><p>A sample weather app built on React. See the code on Github: https://github.com/martin6724/weather_app_react</p>
                 </div>
 
                 <div class="item">
-                  <img src="ny.jpg" alt="New York">
+                  <img class="img-fluid" src="images/minify_url_app.png" alt="Michelle Martin web development url shortener">
+                  <br><p> https://frozen-gorge-45017.herokuapp.com/ A fully-functioning URL shortener web app built on ruby on rails. See the code on Github: https://github.com/martin6724/shorty</p>
                 </div>
-              </div>
+
+                <div class="item">
+                  <!-- <video width="640" height="480" controls> -->
+                      <!-- <source src="images/sample-movie-app-react.mov" type="video/mov"> -->
+                        <img class="img-fluid" src="images/movieapp3.png" alt="MovieApp, a sample react native app pulling the latest movies in theaters.">
+                  <!-- </video> -->
+                  <p>A React-Native mobile app for iOS that displays movies currently in theaters via the MovieDB API. See the code: https://github.com/martin6724/react-native-movie-app</p>
+                </div>
 
               <!-- Left and right controls -->
               <a class="left carousel-control" href="#myCarousel" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left"></span>
                 <span class="sr-only">Previous</span>
               </a>
+
               <a class="right carousel-control" href="#myCarousel" data-slide="next">
                 <span class="glyphicon glyphicon-chevron-right"></span>
                 <span class="sr-only">Next</span>
               </a>
             </div>
-
-
-
-
-
-
-
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
