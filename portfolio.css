@@ -141,6 +141,10 @@ a, a:hover {
   color: white;
 }
 
+a:-webkit-any-link {
+  text-decoration: none;
+}
+
 .homebox:hover {
   color: white;
   text-decoration: none;
@@ -171,9 +175,12 @@ width: 100%;
 
 }
 
+
 .modal-content {
 background-image: linear-gradient(to right, #a8caba 0%, #5d4157 100%);
 border-bottom: none;
+text-align: center;
+color: white;
 }
 
 .modal-header {
@@ -191,14 +198,28 @@ border-bottom: none;
 
 .modal-title {
   color: white;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+#myCarousel {
+  width: 1200px;
+  height: 700px;
+}
+
+.item.active {
+  width: 1000px;
+  height: 400px;
+  margin: auto;
+  border-bottom: none;
+
 }
 
 .carousel-inner img {
-  width: 900px;
-  height: 300px;
+  width: 1000px;
+  height: 400px;
   border-bottom: none;
-  align-items: center;
-  display: inline-flex !important;
+  margin: auto;
 }
 
 .carousel-indicators {
@@ -206,5 +227,11 @@ border-bottom: none;
   /* margin-left: 50%; */
   width: auto;
   position: unset;
+  margin-left: unset;
 
+}
+
+.modal-footer {
+  border-top: none;
+  text-align: center;
 }
