@@ -55,8 +55,13 @@ min-height: 100%;
   right: 0;
   bottom: 0;
   left: 0;
-background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
-opacity: 0.4;
+  /* background: #360033;  /* fallback for old browsers */ */
+  /* background: -webkit-linear-gradient(to right, #0b8793, #360033);  /* Chrome 10-25, Safari 5.1-6 */ */
+  /* background: linear-gradient(to right, #0b8793, #360033); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ */
+  background: #dc2424; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #dc2424, #4a569d); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dc2424, #4a569d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  opacity: 0.75;
 }
 
 .container {
@@ -177,7 +182,9 @@ width: 100%;
 
 
 .modal-content {
-background-image: linear-gradient(to right, #a8caba 0%, #5d4157 100%);
+background: #360033;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0b8793, #360033);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0b8793, #360033); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 border-bottom: none;
 text-align: center;
 color: white;
@@ -185,7 +192,7 @@ color: white;
 
 .modal-header {
   font-size: 30px;
-  background-image: linear-gradient(to right, #a8caba 0%, #5d4157 100%);
+  background-image: transparent;
   color: white;
   border-bottom: none;
   /* height: 5em; */
@@ -212,7 +219,6 @@ color: white;
   height: 400px;
   margin: auto;
   border-bottom: none;
-
 }
 
 .carousel-inner img {
