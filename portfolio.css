@@ -61,7 +61,7 @@ min-height: 100%;
   background: #dc2424; /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #dc2424, #4a569d); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #dc2424, #4a569d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  opacity: 0.75;
+  opacity: 0.72;
 }
 
 .container {
@@ -215,17 +215,27 @@ color: white;
 }
 
 .item.active {
-  width: 1000px;
-  height: 400px;
   margin: auto;
   border-bottom: none;
 }
 
 .carousel-inner img {
-  width: 1000px;
-  height: 400px;
+  width: auto;
+  height: auto;
   border-bottom: none;
   margin: auto;
+}
+
+.carousel-inner .project_title {
+  color: #db8a27;
+}
+
+.project_link {
+  text-decoration: underline;
+  background: linear-gradient(to right, #dc2424, #4a569d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 200px;
+  padding: 10px;
+  text-align: center;
 }
 
 .carousel-indicators {
@@ -240,4 +250,10 @@ color: white;
 .modal-footer {
   border-top: none;
   text-align: center;
+}
+
+button.btn.btn-default {
+  background: transparent;
+  color: white;
+
 }

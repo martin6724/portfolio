@@ -10,6 +10,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script></head>
+
 <body>
 
   <div class="Vidage">
@@ -24,21 +25,30 @@
       new Vidage(selector);
   </script>
 
-<nav class="navbar navbar-inverse navbar-fixed-top" id="fullbar">
+<div id="nav-placeholder">
+</div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+});
+</script>
+
+<nav class="navbar navbar-inverse navbar-static-top" id="fullbar">
   <div class="container-fluid">
     <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-      <span class="icon-bar"></span>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle Navigation</span>
          <span class="icon-bar"></span>
          <span class="icon-bar"></span>
           <span class="icon-bar"></span>
     </button>
   </div>
-<div class="collapse navbar-collapse" id="myNavbar">
+<div class="collapse navbar-collapse" id="navbar">
   <ul class="nav navbar-nav">
       <li class="active"><a href="#">Home</a></li>
       <li><a href="./resume.html">Resume</a></li>
-      <!-- <li><a href="./foliopage1.html">Portfolio</a></li> -->
+      <li><a href="./foliopage1.html">Portfolio</a></li>
       <li><a href="./contact.html">Contact</a></li>
     </ul>
   </div>
@@ -96,23 +106,20 @@
                 <div class="item active">
                   <!-- <video width="640" height="480" controls> -->
                       <!-- <source src="images/mycrobio3.mov" type="video/mov"> -->
-                      <h2 class="project_title">Mycrobio.me</h2>
-                      <h3 class="project_link"><a href="https://mycrobio-me.herokuapp.com/Mycrobio.me">Visit Mycrobio.me</a></h3>
+                      <h2 class="project_title"><a href="https://mycrobio-me.herokuapp.com/Mycrobio.me">Mycrobio.me</a></h2>
                       <p class="project_description">
-                        Voted May 2018 winner for best graduate app. <a href="https://github.com/martin6724/mycrobio.me">See the code on Github</a></p>
-                        <img src="images/Mycrobiome-Sample.png" alt="Mycrobio.me, an interactive antibiotic reference.">
+                      Voted May 2018 winner for best graduate app. <a href="https://github.com/martin6724/mycrobio.me">See it on Github</a></p>
+                      <img src="images/Mycrobiome-Sample.png" alt="Mycrobio.me, an interactive antibiotic reference.">
                 </div>
 
                 <div class="item">
-                  <h2 class="project_title">React Weather App</h2>
-                  <h3 class="project_link"><a href="https://github.com/martin6724/weather_app_react">See it on Github</a></h3>
-                  <p class="project_description">A sample weather app built on React.</p>
+                  <h2 class="project_title"><a href="https://github.com/martin6724/weather_app_react">React Weather App</a></h2>
+                  <p class="project_description">A sample weather app built on React, now on GitHub.</p>
                   <img class="img-fluid" src="images/react_weather_app.png" alt="Mycrobio.me, an interactive antibiotic reference.">
                 </div>
 
                 <div class="item">
-                  <h2 class="project_title">Shorty, a URL Shortener</h2>
-                  <h3 class="project_link"><a href="https://frozen-gorge-45017.herokuapp.com/">Click to visit Shorty</a></h3>
+                  <h2 class="project_title"><a href="https://frozen-gorge-45017.herokuapp.com/">Shorty, a URL Shortener</a></h2>
                   <p class="project_description"> A fully-functioning URL shortener web app built on ruby on rails. See the code on Github: <a href="https://github.com/martin6724/shorty"></a></p>
                   <img class="img-fluid" src="images/minify_url_app.png" alt="Michelle Martin web development url shortener">
                 </div>
@@ -120,8 +127,8 @@
                 <div class="item">
                   <!-- <video width="640" height="480" controls> -->
                       <!-- <source src="images/sample-movie-app-react.mov" type="video/mov"> -->
-                      <h2 class=project_title>React Movie App</h2>
-                      <p class="project_description">A React-Native mobile app for iOS that displays movies currently in theaters via the MovieDB API. See the code: <a href="https://github.com/martin6724/react-native-movie-app">See it on Github</a></p>
+                      <h2 class=project_title><a href="https://github.com/martin6724/react-native-movie-app">React Movie App</a></h2>
+                      <p class="project_description">A React-Native mobile app for iOS that displays movies currently in theaters via the MovieDB API. <a href="https://github.com/martin6724/react-native-movie-app">See it on Github!</a></p>
                         <img class="img-fluid" src="images/movieapp3.png" alt="MovieApp, a sample react native app pulling the latest movies in theaters.">
                   <!-- </video> -->
                 </div>
@@ -144,16 +151,14 @@
         </div>
 
       </div>
-    </div>
-
-
-        </div>
+      </div>
+      </div>
       </div>
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </body>
 </html>
