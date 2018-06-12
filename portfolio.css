@@ -31,12 +31,27 @@ body {
   background-color: #CD573F;
 }
 
+.navbar-header {
+  border-bottom: none;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: transparent;
+}
+
 /* a:hover {
   display: inline-block;
   color: white;
   background-color: #CD573F;
 } */
 
+.navbar-collapse.collapse.in {
+  border-top: none;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color: #CD573F;
+}
 
 .Vidage__video {
 position: absolute;
@@ -85,10 +100,16 @@ flex-direction: column;
   font-family: Poppins, sans-serif;
   letter-spacing: 0.3em;
   font-weight: lighter;
-  font-size: 6rem;
+  font-size: 5rem;
   display: block;
   text-align: center;
   width: 100%;
+}
+
+@media screen and (max-width:600px){
+  h1 {
+    font-size: 4rem;
+  }
 }
 
 .container h2 {
