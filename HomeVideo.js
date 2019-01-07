@@ -1,3 +1,3 @@
 import Vidage from './Vidage';
 
-new Vidage('#VidageVideo');
+new Vidage('#vidage');
