@@ -1,1 +1,1 @@
-<?php header( 'Location: /portfolio.html' ) ;  ?>
+<?php include_once("portfolio.html"); ?>
