@@ -1,7 +1,7 @@
 $(document).ready(function () {
   console.log('hi there!');
-$('.col-md-12').fadeIn("slow").removeClass('hidden');
-$('.col-md-12').animate({ bottom: "15px" }, 'slow');
+$('.intro-section').fadeIn("slow").removeClass('hidden');
+$('.intro-section').animate({ bottom: "15px" }, 'slow');
 
 // $('.homebuttons').show();
 // $('.hombuttons').animate({ opacity: 0 }, 0);

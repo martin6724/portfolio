@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Michelle's Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="portfolio.css" rel="stylesheet">
+  <link rel="stylesheet" href="vidage/dist/styles/vidage.css">
+	<script src="Vidage.min.js"></script>
+  <script src="portfolio.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="Vidage">
+  	  <video id="vidage" class="Vidage__video" preload="metadata" loop autoplay muted>
+        <source src="./michellemartinportfolio.mp4" type="video/mp4">
+  	  </video>
+  	  <div class="Vidage__backdrop"></div>
+    </div>
+
+    <nav id="fullbar" class="navbar navbar-expand-sm navbar-dark bg-transparent static-top">
+          <div class="container">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#slide-home">Home
+                    <span class="sr-only">(current)</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#slide-projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#slide-resume">Resume</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#slide-more">More</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+<div class="slider">
+<div class="slide">
+<span class="anchor1" id="slide-home"></span> <!-- seperating anchor id from slide class -->
+<div class="center_content">
+    <div class="flex-row d-flex justify-content-center">
+      <div class="col-lg-8 intro-section hidden">
+        <h1>Michelle Martin,</h1>
+        <h2>Full-Stack Web Developer</h2>
+      </div>
+  </div>
+
+</div>
+
+<div class="container">
+  <div class="flex-row">
+    <div class="d-flex justify-content-center">
+    <div class="col-xs homebox" style="text-align:center;">
+      <a href="mailto:martin.michelleann@gmail.com?Subject=Hello%20there!">
+        <i class="far fa-envelope"></i>
+      </a>
+    </div>
+
+    <div class="col-xs homebox" style="text-align:center;">
+      <a href="#tel:7864589537">
+        <i class="fas fa-phone"></i>
+      </a>
+    </div>
+</div>
+    </div>
+</div>
+</div>
+
+
+<!-- START PORTFOLIO WORK SAMPLE GRID -->
+<div class="slide">
+  <span class="anchor2" id="slide-projects"></span>
+
+  <div class="row justify-content-center h-100 align-items-center">
+    <div class="col-lg-8 col-xs-10">
+      <div class="center_content">
+
+<div class="card-group">
+  <div class="card">
+    <img class="card-img-top" src="..." alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Full eCommerce Store</h5>
+      <p class="card-text">Integrated Shopify API and custom styling on a full-site buildout, featuring secure forms and more.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Shopify API | Wordpress | PHP | CSS</small>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="..." alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Movie Viewer - Mobile App</h5>
+      <p class="card-text">An unpublished mobile web app for viewing films playing in theaters. Built with React Native for mobile support. </p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">React | React Native | JS </small>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="..." alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Mycrobio.me Rails App</h5>
+      <p class="card-text">An interactive 3D model of human organ systems and their flora, as well as corresponding antibiotics. </p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">JQuery | JS | REST API Calls | JSON</small>
+    </div>
+  </div>
+
+<div class="card-group">
+  <div class="card">
+    <img class="card-img-top" src="..." alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Custom Wordpress Theme</h5>
+      <p class="card-text">Custom Wordpress theme in production, made entirely from scratch with GULP. Includes JS features, and WooCommerce support.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">WooCommerce | Wordpress | Bootstrap | PHP</small>
+    </div>
+  </div>
+    <div class="card">
+      <img class="card-img-top" src="..." alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Responsive Landing Pages</h5>
+        <p class="card-text">I've built many PSD-to-Responsive landing pages, including: http://inktel.com/tim, http://www.inktel.com/be-world-class/, https://www.idcomlog.com/tim/ </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Wordpress | JS | Bootstrap</small>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="..." alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Cross-Platform Custom Email</h5>
+        <p class="card-text">Custom Wordpress theme in production, made entirely from scratch with GULP. Includes JS features, and WooCommerce support.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Email Design | HTML</small>
+      </div>
+    </div>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<!-- end portfolio work sample grid -->
+
+
+
+
+<!-- Resumé Slide -->
+<div class="slide">
+  <span class="anchor3" id="slide-resume"></span>
+  <div class="center_content">
+      <object height="900" data="MichelleMartin_Resumé_2018.pdf#zoom=60" type="application/pdf" width="85%">
+        <p>It appears you don't have a PDF plugin for this browser.
+          No biggie... you can <a href="MichelleMartin_Resumé_2018.pdf">click here to
+          download the PDF file.</a>
+        </p>
+      </object>
+</div>
+</div>
+<!-- end resume slide  -->
+
+
+
+
+
+<!-- More Slide  -->
+<div class="slide">
+  <span class="anchor4" id="slide-more"></span>
+  <div class="center_content">
+<p>More info goes here</p>
+</div>
+</div>
+<!-- end more slide -->
+</div>
+
+<!-- end slider class -->
+
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="./vidage/dist/scripts/vidage.js"></script>
+  <script>
+  new Vidage('#vidage')
+</script>
+
+</div>
+</body>
+</html>
