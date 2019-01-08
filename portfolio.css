@@ -107,9 +107,9 @@ overflow: hidden;
   -webkit-scroll-snap-type: mandatory;
   -ms-scroll-snap-type: mandatory;
   scroll-snap-type: mandatory;
-  scroll-padding: 50%;
+  /* scroll-padding: 50%; */
   -webkit-overflow-scrolling: touch;
-  
+
 }
 
 .slide {
